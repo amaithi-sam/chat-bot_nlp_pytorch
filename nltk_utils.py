@@ -1,5 +1,5 @@
 import nltk
-nltk.download('punkt')
+# nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 import numpy as np
 
@@ -32,6 +32,6 @@ sentence = ["hello", "how", "are", "you"]
 words = ["hi",  "hello",   "I",   "you",  "bye",   "thank",   "cool"]
 
 bog = bag_of_words(sentence, words)
-print(bog)
+# print(bog)
 
 
